@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jens Erik Nielsen</title>
+<style>
+  :root {
+    --bg: #f7f7f5;
+    --fg: #1b1b1a;
+    --muted: #6b6b66;
+    --accent: #1f7a4d;
+    --rule: #e0e0db;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0d0f0e;
+      --fg: #e8e8e4;
+      --muted: #8d918c;
+      --accent: #66ffa6;
+      --rule: #242826;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.6 ui-sans-serif, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  }
+  main { max-width: 32rem; }
+  h1 {
+    margin: 0 0 .25rem;
+    font-size: 1.35rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  p.sub {
+    margin: 0 0 2rem;
+    color: var(--muted);
+    font-size: .95rem;
+  }
+  h2 {
+    margin: 0 0 .75rem;
+    font-size: .75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    color: var(--muted);
+  }
+  ul { margin: 0; padding: 0; list-style: none; }
+  li { padding: .7rem 0; border-top: 1px solid var(--rule); }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover, a:focus-visible { text-decoration: underline; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  .note { color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Jens Erik Nielsen</h1>
+  <p class="sub">iOS apps.</p>
+
+  <h2>Apps</h2>
+  <ul>
+    <li>
+      <a href="https://jensnielsen-stack.github.io/spacetilters-pages/">Space Tilters</a>
+      <div class="note">Tilt-controlled arcade shooter for iPhone and iPad.</div>
+    </li>
+  </ul>
+</main>
+</body>
+</html>
