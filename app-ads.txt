@@ -1,1 +1,4 @@
+# Last reconfirmed 2026-09-12 — AdMob reported it couldn't verify this file;
+# content, domain, and the App Store's Developer Website field were all
+# re-checked and match. Re-pushed to refresh the served Last-Modified.
 google.com, pub-3730217327815715, DIRECT, f08c47fec0942fa0
